@@ -30,7 +30,7 @@ const movingItem = {
 
 init()
 
-// functions
+// functions 함수
 // 스크립트가 호출이 될 때 바로 시작이 되는 초기 함수 init
 function init() {
   tempMovingItem = { ...movingItem }; // 스프레드 오퍼레이터 : 껍데기를 벗긴 안의 내용만, 값을 복사해옴
